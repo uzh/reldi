@@ -1,0 +1,2 @@
+# reldi
+Language Dictionary data
