@@ -14,3 +14,7 @@ git mv old new
 git commit -m "File renamed"
 git push
 # deleting
+git rm file
+git commit -m "File deleted"
+git push
+
