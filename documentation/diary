@@ -243,3 +243,32 @@ Ordinal numerals to adjectives?
 Adjectival pronouns to adjectives?
 Pronoun categories should be drastically reduced
 
+23.06.2015.
+
+- Git can not be used for file sharing, need the server file system for that
+- we should put the following on Git:
+	- set.hr -- already there
+	- set.sr
+	- statistical profile of a language
+	- code for self-tailored tools
+- most of the stuff should be in the central repository, but things that need a lot of work (like sethr and setsr) should probably be in their own repos, a Makefile in the central repo should make sure that they are cloned once somebody needs them
+
+24.06.2015.
+
+- statistical profile
+	- grapheme / phoneme level
+		- grapheme distribution
+		- n-th order Markov distribution
+		- PoS-conditioned distributions
+	- syllable level
+		- syllable distribution
+		- syllable type distribution
+	- word level
+		- token#lemma#pos distribution
+		- lemma#pos distribution
+		- pos distribution
+		- n-th order pos distribution
+		- msd distribution
+		- n-th order msd distribution
+	- sentence level
+		- sentence length distribution
