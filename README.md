@@ -1,2 +1,2 @@
 # reldi
-Language Dictionary data
+ReLDI -- Regional Linguistic Data Initiative
