@@ -1,0 +1,16 @@
+git clone git@github.com:uzh/reldi.git
+# adding a file
+git add file
+git commit -m "File added"
+git push
+# after changing a file
+git stage file
+git commit -m "File changed"
+git push
+# getting other people's stuff
+git pull
+# renaming
+git mv old new
+git commit -m "File renamed"
+git push
+# deleting
