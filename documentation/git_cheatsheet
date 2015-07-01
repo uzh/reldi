@@ -17,4 +17,3 @@ git push
 git rm file
 git commit -m "File deleted"
 git push
-
