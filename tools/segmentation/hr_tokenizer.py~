@@ -11,11 +11,14 @@ def unescapefull(s):
 def escapefull(s):
   return escape(s,{"'":"&apos;",'"':"&quot;"})
 
-def tokenize(paragraph,xml=True):
-  sentence=re.compile(u'(?<=[.!?…])(?<!\d\.)(?<!Dr\.|dr\.|Bl\.|bl\.|Pl\.|pl\.|sc\.|Mr\.|mr\.|Sv\.|sv\.)(?<!inž\.|ing\.|iur\.|oec\.|tzv\.)(?<!Akad\.|akad\.|Mons\.|mons\.|Msgr\.|msgr\.|Prof\.|prof\.)\s+(?=[-»"\' ]*[A-ZČĆŠĐŽ])',re.UNICODE)
+def normalize_quotes(p):
+  return re.sub(r'[]')
+
+def tokenize(paragraph,xml=True):  
+  sentence=re.compile(ur'(?<=[.!?…])(?<!\d\.)(?<!Dr\.|dr\.|Bl\.|bl\.|Pl\.|pl\.|sc\.|Mr\.|mr\.|Sv\.|sv\.)(?<!inž\.|ing\.|iur\.|oec\.|tzv\.)(?<!Akad\.|akad\.|Mons\.|mons\.|Msgr\.|msgr\.|Prof\.|prof\.)\s+(?=[-»"\'„“ ]*[A-ZČĆŠĐŽ])',re.UNICODE)
   # tokenize in two steps - first split by \s+, second apply <g/> everywhere where needed? punct ,;:
   #token=re.compile(r'\s+',re.UNICODE)
-  token=re.compile(r'[a-zšđčćž]\.|bl\.|br\.|dr\.|ek\.|fr\.|kr\.|mn\.|mr\.|po\.|pl\.|pr\.|sc\.|sl\.|st\.|sv\.|tj\.|čit\.|eng\.|god\.|hrv\.|inž\.|ing\.|itd\.|iur\.|kbr\.|kem\.|npr\.|oec\.|tal\.|tzv\.|usp\.|vlč\.|akad\.|bacc\.|emer\.|farm\.|gosp\.|mlrd\.|mons\.|msgr\.|prof\.|spec\.|d\.\s?o\.\s?o\.?|\d+(?:[.,:]\d+)*[.]?|&#?[a-z0-9]+;|https?://[-\w/%]+(?:[.#?=&@;][-\w/%]+)+|[\w.-]+@\w+(?:[.-]\w+)+|[@\w]+(?:[.-][@\w]+)*|\.{2,}|[][.,;"\'?():-_/@`»«…£€$%&-]',re.UNICODE|re.IGNORECASE)
+  token=re.compile(ur'[a-zšđčćž]\.|bl\.|br\.|dr\.|ek\.|fr\.|kr\.|mn\.|mr\.|po\.|pl\.|pr\.|sc\.|sl\.|st\.|sv\.|tj\.|čit\.|eng\.|god\.|hrv\.|inž\.|ing\.|itd\.|iur\.|kbr\.|kem\.|npr\.|oec\.|tal\.|tzv\.|usp\.|vlč\.|akad\.|bacc\.|emer\.|farm\.|gosp\.|mlrd\.|mons\.|msgr\.|prof\.|spec\.|d\.\s?o\.\s?o\.?|&#?[a-z0-9]+;|https?://[-\w/%]+(?:[.#?=&@;][-\w/%]+)+|\d+(?:-[^\W\d_]+)+|\d+(?:[.,:/-]\d+)*[.]?|[\w.-]+@\w+(?:[.-]\w+)+|[@\w]+(?:[.-][@\w]+)*|\.{2,}|-{2,}|[][.,;"\'?():-_/@`»«„“…£€$%&-]',re.UNICODE|re.IGNORECASE)
   result=''
   for index,sent in enumerate(sentence.split(paragraph)):
     #print sent.encode('utf8')
