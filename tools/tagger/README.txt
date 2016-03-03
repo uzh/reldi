@@ -1,12 +1,14 @@
-###DEPENDENCIES###
+## Dependencies
 Python modules:
 sklearn(>=0.15)
 marisa_trie
 pycrfsuite
-###PREPARING TRAINING DATA### (you should have data already prepared)
-cat ~/corpora/sethr/set.hr.conll ~/corpora/sethr/news.hr.conll ~/corpora/sethr/web.hr.conll > training_data/hr.conll
-cat ../6-apertium_HRSR+tagger/tagger/sr/train.synth.conll ../6-apertium_HRSR+tagger/tagger/sr/test.conll > training_data/sr.conll
-sed 's/<\/s>//g' ../5-slovene_lrec/1-feature_set/ssj500k.vert |grep -v '^<' | awk '{if ($0!="") print "O\t" $1 "\t" $3 "\t" $5 "\t" $4; else print $0;}' > training_data/sl.conll
+
+## Training data format
+
+The training data should be in the CoNLL format with the token in the second
+column and the tag in the fifth column.
+
 ###PREPARING THE LEXICON TRIE###
 gunzip -c ~/projects/reldi/reldi/lexicons/apertium/apertium-hbs.hbs_HR_purist.mte.gz | awk '{print $1 "\t" $2 "\t" $3}' | ./prepare_marisa.py hr.marisa
 gunzip -c ~/projects/reldi/reldi/lexicons/apertium/apertium-hbs.hbs_SR_purist.mte.gz | awk '{print $1 "\t" $2 "\t" $3}' | ./prepare_marisa.py sr.marisa
