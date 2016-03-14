@@ -17,14 +17,14 @@ $ gunzip -c ../../lexicons/apertium/apertium-hbs.hbs_SR_purist.mte.gz | cut -f 1
 ## Training the tagger
 
 The only argument given to the script is the language code. In case of
-Croatian (language code "hr") the corpus training data is expected to be in
-the file hr.conll, while the lexicon trie is expected to be in the file hr.trie.
+Croatian (language code `hr`) the corpus training data is expected to be in
+the file `hr.conll`, while the lexicon trie is expected to be in the file `hr.marisa`.
 
-$ ./train_tagger.py hr
+`$ ./train_tagger.py hr`
 $ ./train_tagger.py sr
 $ ./train_tagger.py sl
 
-## PREPARING THE LEXICON FOR TRAINING THE LEMMATISER###
+## PREPARING THE LEXICON FOR TRAINING THE LEMMATISER
 ./lemma_freq.py hr.lemma_freq < training_data/hr.conll
 ./lemma_freq.py sl.lemma_freq < training_data/sl.conll
 ./lemma_freq.py sr.lemma_freq < training_data/sr.conll
