@@ -1,10 +1,14 @@
-## Dependencies
+# Dependencies
 
 Python modules:
 
 * sklearn(>=0.15)
 * marisa_trie
 * pycrfsuite
+
+# Running the tagger
+
+# Training your own models
 
 ## Training data format
 
@@ -26,7 +30,7 @@ The only argument given to the script is the language code. In case of Croatian 
 
 `$ ./train_tagger.py sl`
 
-## Preparing the lexicon for training the lemmatiser
+### Preparing the lexicon for training the lemmatiser
 
 `$ ./lemma_freq.py hr.lemma_freq < training_data/hr.conll`
 
@@ -38,7 +42,7 @@ The only argument given to the script is the language code. In case of Croatian 
 
 `$ gunzip -c ~/projects/reldi/reldi/lexicons/apertium/apertium-hbs.hbs_SR_purist.mte.gz | awk '{print $1 "\t" $2 "\t" $3}' | ./prepare_lexicon.py sr.lemma_freq sr.lexicon`
 
-## Training the lemmatiser
+### Training the lemmatiser
 
 `$ ./train_lemmatiser.py hr.lexicon`
 
