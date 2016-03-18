@@ -30,26 +30,27 @@ dobro	Rgp
 
 You can, of course, send the data to be tagged to stdin. Additionally, there is a tokeniser in this toolkit, so probably the most convenient way of running the tagger is this:
 
-`$ echo 'Moj alat radi dobro.' | ../tokeniser/tokeniser.py hr | ./tagger.py hr`
-`1.1.1.1-3	Moj	Ps1msn`
-`1.1.2.5-8	alat	Ncmsn`
-`1.1.3.10-13	radi	Vmr3s`
-`1.1.4.15-19	dobro	Rgp`
-`1.1.5.20-20	.	Z`
-
+```
+$ echo 'Moj alat radi dobro.' | ../tokeniser/tokeniser.py hr | ./tagger.py hr
+1.1.1.1-3	Moj	Ps1msn
+1.1.2.5-8	alat	Ncmsn
+1.1.3.10-13	radi	Vmr3s
+1.1.4.15-19	dobro	Rgp
+1.1.5.20-20	.	Z
+```
 Run `./tagger.py -h` for additional options.
 
 If you want to use both the tagger and the lemmatiser, you should train the lemmatiser as described below. At the end of the process, for Croatian you should have the following files: `hr.lexicon` and `hr.lexicon.guesser`.
 
 Once you have everything in place, just add the `-l` flag to the tagger:
 
-`$ echo 'Moj alat radi dobro.' | ../tokeniser/tokeniser.py hr | ./tagger.py hr -l`
-`1.1.1.1-3	Moj	Ps1msn	moj`
-`1.1.2.5-8	alat	Ncmsn	alat`
-`1.1.3.10-13	radi	Vmr3s	raditi`
-`1.1.4.15-19	dobro	Rgp	dobro`
-`1.1.5.20-20	.	Z	.`
-
+```$ echo 'Moj alat radi dobro.' | ../tokeniser/tokeniser.py hr | ./tagger.py hr -l
+1.1.1.1-3	Moj	Ps1msn	moj
+1.1.2.5-8	alat	Ncmsn	alat
+1.1.3.10-13	radi	Vmr3s	raditi
+1.1.4.15-19	dobro	Rgp	dobro
+1.1.5.20-20	.	Z	.
+```
 
 ## Training your own models
 
