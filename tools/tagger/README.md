@@ -12,28 +12,27 @@ Python modules:
 
 If you have all the files in place for tagging (for Croatian `hr.msd.model` and `hr.marisa`), you can run the tagger like this:
 
-`$ ./tagger.py hr 
-Moj
-alat
-radi
-dobro 
-.
-
-Moj	Ps1msn
-alat	Ncmsn
-radi	Vmr3s
-dobro	Rgp
-.	Z`
+`$ ./tagger.py hr `
+`Moj`
+`alat`
+`radi`
+`dobro`
+`.`
+``
+`Moj	Ps1msn`
+`alat	Ncmsn`
+`radi	Vmr3s`
+`dobro	Rgp`
+`.	Z`
 
 You can, of course, send the data to be tagged to stdin. Additionally, there is a tokeniser in this toolkit, so probably the most convenient way of running the tagger is this:
 
-`$ echo 'Moj alat radi dobro.' | ../tokeniser/tokeniser.py hr | ./tagger.py hr` 
-1.1.1.1-3	Moj	Ps1msn
-1.1.2.5-8	alat	Ncmsn
-1.1.3.10-13	radi	Vmr3s
-1.1.4.15-19	dobro	Rgp
-1.1.5.20-20	.	Z
-`
+`$ echo 'Moj alat radi dobro.' | ../tokeniser/tokeniser.py hr | ./tagger.py hr`
+`1.1.1.1-3	Moj	Ps1msn`
+`1.1.2.5-8	alat	Ncmsn`
+`1.1.3.10-13	radi	Vmr3s`
+`1.1.4.15-19	dobro	Rgp`
+`1.1.5.20-20	.	Z`
 
 Run `./tagger.py -h` for additional options.
 
@@ -41,13 +40,13 @@ If you want to use both the tagger and the lemmatiser, you should train the lemm
 
 Once you have everything in place, just add the `-l` flag to the tagger:
 
-`$ echo 'Moj alat radi dobro.' | ../tokeniser/tokeniser.py hr | ./tagger.py hr -l
-1.1.1.1-3	Moj	Ps1msn	moj
-1.1.2.5-8	alat	Ncmsn	alat
-1.1.3.10-13	radi	Vmr3s	raditi
-1.1.4.15-19	dobro	Rgp	dobro
-1.1.5.20-20	.	Z	.
-`
+`$ echo 'Moj alat radi dobro.' | ../tokeniser/tokeniser.py hr | ./tagger.py hr -l`
+`1.1.1.1-3	Moj	Ps1msn	moj`
+`1.1.2.5-8	alat	Ncmsn	alat`
+`1.1.3.10-13	radi	Vmr3s	raditi`
+`1.1.4.15-19	dobro	Rgp	dobro`
+`1.1.5.20-20	.	Z	.`
+
 
 ## Training your own models
 
