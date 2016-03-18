@@ -12,18 +12,19 @@ Python modules:
 
 If you have all the files in place for tagging (for Croatian `hr.msd.model` and `hr.marisa`), you can run the tagger like this:
 
-`$ ./tagger.py hr `
-`Moj`
-`alat`
-`radi`
-`dobro`
-`.`
-``
-`Moj	Ps1msn`
-`alat	Ncmsn`
-`radi	Vmr3s`
-`dobro	Rgp`
-`.	Z`
+```$ ./tagger.py hr
+Moj
+alat
+radi
+dobro
+.
+
+CTRL+D
+Moj	Ps1msn
+alat	Ncmsn
+radi	Vmr3s
+dobro	Rgp
+.	Z```
 
 You can, of course, send the data to be tagged to stdin. Additionally, there is a tokeniser in this toolkit, so probably the most convenient way of running the tagger is this:
 
