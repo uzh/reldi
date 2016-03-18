@@ -44,7 +44,8 @@ If you want to use both the tagger and the lemmatiser, you should train the lemm
 
 Once you have everything in place, just add the `-l` flag to the tagger:
 
-```$ echo 'Moj alat radi dobro.' | ../tokeniser/tokeniser.py hr | ./tagger.py hr -l
+```
+$ echo 'Moj alat radi dobro.' | ../tokeniser/tokeniser.py hr | ./tagger.py hr -l
 1.1.1.1-3	Moj	Ps1msn	moj
 1.1.2.5-8	alat	Ncmsn	alat
 1.1.3.10-13	radi	Vmr3s	raditi
