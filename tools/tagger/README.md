@@ -83,15 +83,17 @@ The only argument given to the script is the language code. In case of Croatian 
 
 ### Preparing the lexicon for training the lemmatiser
 
-`$ ./lemma_freq.py hr.lemma_freq < training_data/hr.conll`
+The first step in producing the lexicon for lemmatisation is to calculate the lemma frequency list from the tagger training data. The data in the same format as for training the tagger should be used.
 
-`$ ./lemma_freq.py sl.lemma_freq < training_data/sl.conll`
+`$ ./lemma_freq.py hr.lemma_freq < hr.conll`
 
-`$ ./lemma_freq.py sr.lemma_freq < training_data/sr.conll`
+`$ ./lemma_freq.py sr.lemma_freq < sr.conll`
 
-`$ gunzip -c ../../lexicons/apertium/apertium-hbs.hbs_HR_purist.mte.gz | awk '{print $1 "\t" $2 "\t" $3}' | ./prepare_lexicon.py hr.lemma_freq hr.lexicon`
+The second step produces the lexicon in form of a `marisa_trie.BytesTrie`. The lemma frequency information is used in case of `(token,msd)` pair collisions. Only the most frequent lemma is kept in the lexicon.
 
-`$ gunzip -c ../../lexicons/apertium/apertium-hbs.hbs_SR_purist.mte.gz | awk '{print $1 "\t" $2 "\t" $3}' | ./prepare_lexicon.py sr.lemma_freq sr.lexicon`
+`$ gunzip -c ../../lexicons/apertium/apertium-hbs.hbs_HR_purist.mte.gz | cut -f 1,2,3 | ./prepare_lexicon.py hr.lemma_freq hr.lexicon`
+
+`$ gunzip -c ../../lexicons/apertium/apertium-hbs.hbs_SR_purist.mte.gz | cut -f 1,2,3 | ./prepare_lexicon.py sr.lemma_freq sr.lexicon`
 
 ### Training the lemmatiser
 
