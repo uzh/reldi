@@ -40,7 +40,13 @@ $ echo 'Moj alat radi dobro.' | ../tokeniser/tokeniser.py hr | ./tagger.py hr
 ```
 Run `./tagger.py -h` for additional options.
 
-If you want to use both the tagger and the lemmatiser, you should train the lemmatiser as described below. At the end of the process, for Croatian you should have the following files: `hr.lexicon` and `hr.lexicon.guesser`.
+If you want to use both the tagger and the lemmatiser, you should train the lemmatiser as described below OR get the files for guessing the lemmas from these locations:
+
+* http://nlp.ffzg.hr/data/models/hr.lexicon.guesser
+* http://nlp.ffzg.hr/data/models/sr.lexicon.guesser
+* http://nlp.ffzg.hr/data/models/sl.lexicon.guesser
+
+At the end of the process, for Croatian you should have the following files: `hr.lexicon` and `hr.lexicon.guesser`.
 
 Once you have everything in place, just add the `-l` flag to the tagger:
 
@@ -55,7 +61,7 @@ $ echo 'Moj alat radi dobro.' | ../tokeniser/tokeniser.py hr | ./tagger.py hr -l
 
 ## Training your own models
 
-As currently we do not disseminate the lemmatisation models (too large for GitHub), if you want to perform elmmatisation, you should train your own model. Models for tagging are included in this distribution.
+As currently we do not disseminate the lemma prediction models (too large for GitHub), if you want to have lemma prediction models based on the latest version of the lexicon (later than 2016-03-23), you should train your own model. Models for tagging and lexicon files for lemmatisation of know words are included in this distribution.
 
 ### Tagger training data format
 
@@ -65,12 +71,14 @@ The tagger training data should be in the CoNLL format with the token in the sec
 
 The lexicon trie is used both during training the tagger and during tagging.
 
-The examples below cover only Croatian and Serbian as we do not currently distribute the Slovene inflectional lexicon.
+The examples below should work out-of-the-box for Croatian and Serbian only as we do not currently distribute the Slovene inflectional lexicon.
 
 ```
 $ gunzip -c ../../lexicons/apertium/apertium-hbs.hbs_HR_purist.mte.gz | cut -f 1,2,3 | ./prepare_marisa.py hr.marisa
 
 $ gunzip -c ../../lexicons/apertium/apertium-hbs.hbs_SR_purist.mte.gz | cut -f 1,2,3 | ./prepare_marisa.py sr.marisa
+
+$ gunzip -c sloleks-en_v1.2.tbl.gz | cut -f 1,2,3 | ./prepare_marisa.py sl.marisa
 ```
 
 ### Training the tagger
@@ -101,11 +109,16 @@ The second step produces the lexicon in form of a `marisa_trie.BytesTrie`. The l
 $ gunzip -c ../../lexicons/apertium/apertium-hbs.hbs_HR_purist.mte.gz | cut -f 1,2,3 | ./prepare_lexicon.py hr.lemma_freq hr.lexicon
 
 $ gunzip -c ../../lexicons/apertium/apertium-hbs.hbs_SR_purist.mte.gz | cut -f 1,2,3 | ./prepare_lexicon.py sr.lemma_freq sr.lexicon
+
+$ gunzip -c sloleks-en_v1.2.tbl.gz | cut -f 1,2,3 | ./prepare_lexicon.py sl.lemma_freq sl.lexicon
+
 ```
 
 ### Training the lemmatiser
 
 The lemmatiser of unknown words is trained on the lexicon prepared in the previous step. The lexicon used for training the lemma guesser has a suffix `.train`. A Multinomial Naive Bayes classifier is learned for each MSD. The classes to be predicted are quatruple transformations in form `(remove_start,prefix,remove_end,suffix)`. The transformation is being applied by removing the first remove_start characters, adding the prefix, removing the last remove_end characters and adding the suffix.
+
+The output of the lemmatiser learning process is a file with the `.lexicon.guesser` suffix.
 
 ```
 $ ./train_lemmatiser.py hr.lexicon
