@@ -67,39 +67,51 @@ The lexicon trie is used both during training the tagger and during tagging.
 
 The examples below cover only Croatian and Serbian as we do not currently distribute the Slovene inflectional lexicon.
 
-`$ gunzip -c ../../lexicons/apertium/apertium-hbs.hbs_HR_purist.mte.gz | cut -f 1,2,3 | ./prepare_marisa.py hr.marisa`
+```
+$ gunzip -c ../../lexicons/apertium/apertium-hbs.hbs_HR_purist.mte.gz | cut -f 1,2,3 | ./prepare_marisa.py hr.marisa
 
-`$ gunzip -c ../../lexicons/apertium/apertium-hbs.hbs_SR_purist.mte.gz | cut -f 1,2,3 | ./prepare_marisa.py sr.marisa`
+$ gunzip -c ../../lexicons/apertium/apertium-hbs.hbs_SR_purist.mte.gz | cut -f 1,2,3 | ./prepare_marisa.py sr.marisa
+```
 
 ### Training the tagger
 
 The only argument given to the script is the language code. In case of Croatian (language code `hr`) the corpus training data is expected to be in the file `hr.conll`, while the lexicon trie is expected to be in the file `hr.marisa`.
 
-`$ ./train_tagger.py hr`
+```
+$ ./train_tagger.py hr
 
-`$ ./train_tagger.py sr`
+$ ./train_tagger.py sr
 
-`$ ./train_tagger.py sl`
+$ ./train_tagger.py sl
+```
 
 ### Preparing the lexicon for training the lemmatiser
 
 The first step in producing the lexicon for lemmatisation is to calculate the lemma frequency list from the tagger training data. The data in the same format as for training the tagger should be used.
 
-`$ ./lemma_freq.py hr.lemma_freq < hr.conll`
+```
+$ ./lemma_freq.py hr.lemma_freq < hr.conll
 
-`$ ./lemma_freq.py sr.lemma_freq < sr.conll`
+$ ./lemma_freq.py sr.lemma_freq < sr.conll
+```
 
 The second step produces the lexicon in form of a `marisa_trie.BytesTrie`. The lemma frequency information is used in case of `(token,msd)` pair collisions. Only the most frequent lemma is kept in the lexicon.
 
-`$ gunzip -c ../../lexicons/apertium/apertium-hbs.hbs_HR_purist.mte.gz | cut -f 1,2,3 | ./prepare_lexicon.py hr.lemma_freq hr.lexicon`
+```
+$ gunzip -c ../../lexicons/apertium/apertium-hbs.hbs_HR_purist.mte.gz | cut -f 1,2,3 | ./prepare_lexicon.py hr.lemma_freq hr.lexicon
 
-`$ gunzip -c ../../lexicons/apertium/apertium-hbs.hbs_SR_purist.mte.gz | cut -f 1,2,3 | ./prepare_lexicon.py sr.lemma_freq sr.lexicon`
+$ gunzip -c ../../lexicons/apertium/apertium-hbs.hbs_SR_purist.mte.gz | cut -f 1,2,3 | ./prepare_lexicon.py sr.lemma_freq sr.lexicon
+```
 
 ### Training the lemmatiser
 
-`$ ./train_lemmatiser.py hr.lexicon`
+The lemmatiser of unknown words is trained on the lexicon prepared in the previous step. The lexicon used for training the lemma guesser has a suffix `.train`. A Multinomial Naive Bayes classifier is learned for each MSD. The classes to be predicted are quatruple transformations in form `(remove_start,prefix,remove_end,suffix)`. The transformation is being applied by removing the first remove_start characters, adding the prefix, removing the last remove_end characters and adding the suffix.
 
-`$ ./train_lemmatiser.py sr.lexicon`
+```
+$ ./train_lemmatiser.py hr.lexicon
 
-`$ ./train_lemmatiser.py sl.lexicon`
+$ ./train_lemmatiser.py sr.lexicon
+
+$ ./train_lemmatiser.py sl.lexicon
+```
 
