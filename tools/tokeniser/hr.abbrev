@@ -2,7 +2,7 @@
 #S = always ends sentence
 #N = never ends sentence
 #B = sometimes ends sentence
-d\.\s?o\.\s?o\.?	B
+d\.o\.o\.	B
 [a-zšđčćž]\.(?!\.)	N
 al\'\b	N
 akad\.	N
