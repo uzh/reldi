@@ -7,16 +7,12 @@ import kenlm
 import cPickle as pickle
 from random import randint
 
-#lang=sys.argv[1]
 tm_lambda=0.2
 lm_lambda=0.8
-#if len(sys.argv)>2:
-#  index=int(sys.argv[2])
-#else:
-#  index=-1
 
 import os
-reldir=os.path.dirname(sys.argv[0])+'/'
+reldir=os.path.dirname(os.path.abspath(__file__))
+#os.path.dirname(sys.argv[0])+'/'
 
 def get_uppers(token_list):
   uppers=[]
@@ -36,7 +32,7 @@ def apply_uppers(uppers,token_list):
     token_list[token_index]=token
   return token_list
 
-def redi(token_list,lm):#encoding problem, move tm to unicode 
+def redi(token_list,lexicon,lm):
   uppers=get_uppers(token_list)
   token_list=[e.lower() for e in token_list]
   indices=[]
@@ -61,7 +57,7 @@ def read_and_write(istream,index,ostream,lm):
   entry_list=[]
   for line in istream:
     if line.strip()=='':
-      token_list=redi([e[index] for e in entry_list],lm)
+      token_list=redi([e[index] for e in entry_list],lexicon,lm)
       ostream.write(''.join(['\t'.join(entry)+'\t'+token+'\n' for entry,token in zip(entry_list,token_list)]).encode('utf8')+'\n')
       entry_list=[]
     else:
@@ -74,9 +70,11 @@ if __name__=='__main__':
   parser.add_argument('-l','--language-model',help='use the language model',action='store_true')
   parser.add_argument('-i','--index',help='index of the column to be processed',type=int,default=0)
   args=parser.parse_args()
-  lexicon=pickle.load(open(reldir+'wikitweetweb.'+args.lang+'.tm'))
+  lexicon=pickle.load(open(os.path.join(reldir,'wikitweetweb.'+args.lang+'.tm')))
   if args.language_model:
-    lm=kenlm.LanguageModel(reldir+'wikitweetweb.'+args.lang+'.bin')
+    cnf=kenlm.Config()
+    cnf.load_method=0
+    lm=kenlm.LanguageModel(os.path.join(reldir,'wikitweetweb.'+args.lang+'.bin'),cnf)
   else:
     lm=None
   read_and_write(sys.stdin,args.index-1,sys.stdout,lm)
