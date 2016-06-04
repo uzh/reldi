@@ -6,7 +6,7 @@ warnings.filterwarnings("ignore")
 
 import sys
 import os
-reldir=os.path.dirname(sys.argv[0])+'/'
+reldir=os.path.dirname(os.path.abspath(__file__))
 
 from train_tagger import extract_features_msd
 from train_lemmatiser import extract_features_lemma
@@ -109,6 +109,17 @@ def read_and_write(istream,index,ostream):
     else:
       entry_list.append(line[:-1].decode('utf8').split('\t'))
 
+def load_models(lang,dir=None):
+  global trie
+  global tagger
+  global lemmatiser
+  if dir!=None:
+    reldir=dir
+  trie=pickle.load(open(os.path.join(reldir,lang+'.marisa')))
+  tagger=pycrfsuite.Tagger()
+  tagger.open(os.path.join(reldir,lang+'.msd.model'))
+  lemmatiser={'model':pickle.load(open(os.path.join(reldir,lang+'.lexicon.guesser'))),'lexicon':pickle.load(open(os.path.join(reldir,lang+'.lexicon')))}
+
 if __name__=='__main__':
   import argparse
   parser=argparse.ArgumentParser(description='Tagger and lemmatiser for Slovene, Croatian and Serbian')
@@ -116,11 +127,11 @@ if __name__=='__main__':
   parser.add_argument('-l','--lemmatise',help='perform lemmatisation as well',action='store_true')
   parser.add_argument('-i','--index',help='index of the column to be processed',type=int,default=0)
   args=parser.parse_args()
-  trie=pickle.load(open(reldir+args.lang+'.marisa'))
+  trie=pickle.load(open(os.path.join(reldir,args.lang+'.marisa')))
   tagger=pycrfsuite.Tagger()
-  tagger.open(reldir+args.lang+'.msd.model')
+  tagger.open(os.path.join(reldir,args.lang+'.msd.model'))
   if args.lemmatise:
-    lemmatiser={'model':pickle.load(open(reldir+args.lang+'.lexicon.guesser')),'lexicon':pickle.load(open(reldir+args.lang+'.lexicon'))}
+    lemmatiser={'model':pickle.load(open(os.path.join(reldir,args.lang+'.lexicon.guesser'))),'lexicon':pickle.load(open(os.path.join(reldir,args.lang+'.lexicon')))}
   else:
     lemmatiser=None
   read_and_write(sys.stdin,args.index-1,sys.stdout)
