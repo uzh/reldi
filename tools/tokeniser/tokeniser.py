@@ -8,11 +8,11 @@ from signal import signal, SIGPIPE, SIG_DFL
 signal(SIGPIPE,SIG_DFL) 
 
 import os
-dir=os.path.dirname(sys.argv[0])
+reldir=os.path.dirname(os.path.abspath(__file__))
 
 def read_abbrevs(file):
   abbrevs={'B':[],'N':[],'S':[]}
-  for line in open(dir+'/'+file):
+  for line in open(os.path.join(reldir,file)):
     if not line.startswith('#'):
       abbrev,type=line.decode('utf8').strip().split('\t')[:2]
       abbrevs[type].append(abbrev)
