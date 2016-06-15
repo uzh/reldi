@@ -30,7 +30,7 @@ def get_lemma(token,msd):
   if key in lexicon:
     return lexicon[key][0].decode('utf8')
   if msd[:2]!='Np':
-    for i in range(len(msd)):
+    for i in range(len(msd)-1):
       for key in lexicon.keys(key[:-(i+1)]):
         return lexicon[key][0].decode('utf8')
   return guess_lemma(token,msd)
@@ -42,7 +42,11 @@ def guess_lemma(token,msd):
   if msd not in model:
     return token
   else:
-    return apply_rule(token,model[msd].predict(extract_features_lemma(token))[0],msd)
+    lemma=apply_rule(token,model[msd].predict(extract_features_lemma(token))[0],msd)
+    if len(lemma)>0:
+      return lemma
+    else:
+      return token
 
 def suffix(token,n):
   if len(token)>n:
