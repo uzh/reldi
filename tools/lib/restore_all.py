@@ -21,7 +21,7 @@ if __name__ == "__main__":
     parser.add_argument('lang',help='language of the text(s)',choices=['sl','hr','sr'])
     parser.add_argument('path',help='Path to the file or folder containing files (with .txt extension) to be tagged and lemmatised.')
     args=parser.parse_args()
-    passwd=getpass('Input password or user "'+user+'": ')
+    passwd=getpass('Input password for user "'+user+'": ')
     restorer = DiacriticRestorer(args.lang)
     restorer.authorize(user, passwd)
     if os.path.isfile(args.path):

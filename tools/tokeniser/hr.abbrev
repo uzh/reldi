@@ -3,6 +3,7 @@
 #N = never ends sentence
 #B = sometimes ends sentence
 d\.o\.o\.	B
+d\.d\.	B
 [a-zšđčćž]\.(?!\.)	N
 al\'\b	N
 akad\.	N

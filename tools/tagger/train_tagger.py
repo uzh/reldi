@@ -111,9 +111,13 @@ def search_full(token,trie):
     return [decode(e) for e in trie[token]]
 
 def search_suffix(token,trie):
-  prefixes=trie.prefixes(token)
-  if len(prefixes)>0:
-    return [decode(e) for e in trie[sorted([(len(e),e) for e in prefixes],reverse=True)[0][1]]]
+  token=reverse(u'_'+token)
+  for i in range(len(token)-3):
+    hypotheses=set()
+    for k,v in trie.iteritems(token[:-(i+1)]):
+      hypotheses.add(v)
+    if len(hypotheses)>0:
+      return hypotheses
 
 def escape_colon(text):
   return text.replace('\\','\\\\').replace(':','\\:')
@@ -163,10 +167,10 @@ def extract_features_msd(sent,trie): #originally "combined2", relates to the mod
   suffix_sent=[]
   for token in sent:
     full_sent.append(search_full(token.lower(),trie))
-    if full_sent[-1]!=None:
-      suffix_sent.append(search_suffix(token.lower(),trie))
-    else:
-      suffix_sent.append(None)
+    #if full_sent[-1]==None: # uncomment for "msdsuf" feature
+    #  suffix_sent.append(search_suffix(token.lower(),trie))
+    #else:
+    #  suffix_sent.append(None)
   features=[]
   for index,token in enumerate(sent):
     tfeat=[]
@@ -183,9 +187,9 @@ def extract_features_msd(sent,trie): #originally "combined2", relates to the mod
     if full_sent[index]!=None:
       for msd in full_sent[index]:
         tfeat.append('msd='+msd)
-    elif suffix_sent[index]!=None:
-      for msd in suffix_sent[index]:
-        tfeat.append('msdsuf='+msd)
+    #elif suffix_sent[index]!=None:
+    #  for msd in suffix_sent[index]:
+    #    tfeat.append('msdsuf='+msd)
     if full_sent[index]!=None:
       tfeat.append('inlexicon=True')
     else:
@@ -214,16 +218,13 @@ if __name__=='__main__':
   trie=pickle.load(open(lang+'.marisa'))
   trainer=pycrfsuite.Trainer(algorithm='pa',verbose=True)
   trainer.set_params({'max_iterations':10})
-  for sent in conll_iter(open('training_data/'+lang+'.conll')):
-    #print sent
+  for sent in conll_iter(open(lang+'.conll')):
     tokens=[e[1] for e in sent]
     try:
       labels=[e[4] for e in sent]
     except:
       print tokens
-    #print labels
     feats=extract_features_msd(tokens,trie)
-    #print feats
+    print tokens,labels,feats
     trainer.append(feats,labels)
-    #break
   trainer.train(lang+'.msd.model')

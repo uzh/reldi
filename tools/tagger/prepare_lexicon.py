@@ -42,7 +42,7 @@ for line in sys.stdin:
   #newlemma=lemma==prevlemma
   if key not in lexicon:
     lexicon[key]={}#{lemma_rule:1}
-  lexicon[key][lemma.encode('utf8')]=lemma_freq.get(lemma,0)
+  lexicon[key][lemma.encode('utf8')]=lemma_freq.get(lemma.lower()+'_'+msd[:2],0)
 
 for key in lexicon.iterkeys():
   lexicon[key]=sorted(lexicon[key].items(),key=lambda x:-x[1])[0][0]

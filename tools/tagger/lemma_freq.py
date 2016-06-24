@@ -5,7 +5,8 @@ import cPickle as pickle
 lemma_freq={}
 for line in sys.stdin:
   try:
-    lemma=line.decode('utf8').split('\t')[2].lower()
+    lemma=line.decode('utf8').split('\t')
+    lemma=lemma[2].lower()+'_'+lemma[4][:2]
   except:
     continue
   lemma_freq[lemma]=lemma_freq.get(lemma,0)+1
