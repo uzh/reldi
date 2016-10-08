@@ -1,7 +1,7 @@
 # -*- coding: utf8 -*
 
 # counts the number of different items in the old data set format (before lrec2016 submission e.g. "merged.txt")
-# usage: python srasp-format.py <old-datafile> 
+# usage: python srasp-count.py <old-datafile> 
 
 import re
 import codecs
