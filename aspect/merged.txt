@@ -1,0 +1,2917 @@
+adresirati 1
+
+amputirati 1
+
+analizirati 1
+
+apsorbovati 2
+
+argatovati 1
+
+arhivirati 0
+- prearhivirati 2
+
+asimilirati 1
+
+avanzovati 1
+
+ažurirati 2
+
+baciti 37
+- bacati 3
+- bacakati 1
+- dobaciti 2
+- izbaciti 16 izbacivati 5
+- odbaciti 9 odbacivati 2
+- prebaciti 3
+- ubaciti 6 ubacivati 3
+- zabaciti 1 zabacivati 1
+- zbaciti 3 zbacivati 1
+
+batinati 1
+
+baviti 14
+- nabaviti 4
+- - 0 zabavljati 2
+
+bdeti 1
+
+bediti 0
+- ubediti 2 ubeđivati 2
+
+beleti 0
+- pobeleti 1
+
+beležiti 0
+- obeležiti 1
+- zabeležiti 2
+
+besiti 0
+- obesiti 2
+
+bezbediti 0
+- obezbediti 1
+
+bežati 1
+- izbegnuti 10 izbegavati 2
+- pobeći 6
+
+birati 2
+- izabrati 2
+- odabrati 1
+
+biti 1989
+- bivati 11
+- dobiti 30 dobijati 9
+- izbiti 7 izbijati 4
+- nabiti 1
+- odbiti 6 odbijati 9
+- pobiti 1 pobijati 2
+- prebiti 4 prebijati 2
+- pribiti 2
+- - 0 probijati 9
+- razbiti 10 razbijati 2
+- ubiti 22 ubijati 6
+- zbiti 4
+
+bičevati 2
+
+blažiti 0
+- ublažiti 2 ublažavati 1
+
+blebetati 2
+
+bledeti 4
+- izbledeti 2
+- pobledeti 1
+- ubledeti 1
+
+blistati 1
+
+bližiti 0
+- približiti 13 približavati 16
+
+bodriti 1
+- obodriti 1
+
+bojati 9
+
+bojiti 0
+- obojiti 3
+
+boleti 4
+- zaboleti 1
+
+bombardovati 1
+
+borati 0
+- izborati 1
+
+boraviti 1
+
+boraviti 0
+- zaboraviti 39 zaboravljati 4
+
+boriti 24
+- oboriti 6 obarati 1
+
+bosti 1
+- zabosti 2 zabadati 2
+
+braniti 6
+- zabraniti 5 zabranjivati 2
+
+brati 2
+- pribrati 2
+- razabrati 4
+- ubrati 1
+
+brazditi 0
+- zabrazditi 1
+
+brijati 2
+- obrijati 1
+
+brinuti 4
+
+brisati 4
+- izbrisati 5
+- obrisati 1
+- zbrisati 3
+
+briznuti 1
+
+brojati 0
+- izbrojati 3
+- - 0 nabrajati 1
+
+brstiti 0
+- obrstiti 1
+
+brzati 0
+- ubrzati 1
+
+buditi 5
+- probuditi 17
+- uzbuditi 2
+
+bujati 0
+- nabujati 1
+
+buljiti 2
+
+buncati 1
+
+buniti 4
+- pobuniti 6
+- uzbuniti 1
+- - 0 zbunjivati 2
+
+bučati 1
+
+bušiti 0
+- probušiti 1
+
+cediti 7
+- iscediti 6
+
+celivati 1
+
+ceniti 0
+- oceniti 5
+- proceniti 1 procenjivati 2
+- - 0 ucenjivati 1
+
+centralizovati 1
+
+cenzurisati 1
+
+cepati 2
+- iscepkati 1
+- otcepiti 2
+
+cik 0
+- - 0 potcikivati 1
+
+citirati 1
+
+cmizdriti 1
+
+cmoljiti 0
+- zacmoljiti 1
+
+coknuti 1
+
+crneti 0
+- pocrneti 1
+
+crpeti 0
+- - 0 iscrpljivati 3
+
+crtati 2
+- nacrtati 1
+- precrtati 1 precrtavati 1
+
+crveneti 0
+- pocrveneti 1
+
+curiti 1
+- pocuriti 1
+- procuriti 1
+
+cvetati 1
+- rascvetati 1
+
+cvileti 3
+
+cviliti 2
+
+cvokotati 2
+
+dahnuti 1
+- izdahnuti 1
+- udahnuti 5
+- uzdahnuti 3
+
+daljiti 0
+- udaljiti 4
+
+dati 63
+- davati 23
+- dodati 19 dodavati 1
+- izdati 23 izdavati 4
+- odati 5 odavati 8
+- predati 7 predavati 1
+- - 0 pridavati 1
+- prodati 4 prodavati 4
+- - 0 rasprodavati 1
+- zadati 2 zadavati 2
+
+datirati 2
+
+daviti 0
+- udaviti 1
+
+debljati 1
+- zadebljati 1
+
+deformisati 1
+
+dejstvovati 3
+- izdejstvovati 1
+
+delati 2
+
+deliti 5
+- izdeliti 2
+- podeliti 5
+- raspodeliti 2 raspodeljivati 1
+- razdeliti 1
+
+delovati 7
+
+desiti 49
+- - 0 dešavati 30
+- udesiti 5
+- zadesiti 3
+
+dešifrovati 1
+
+dignuti 9
+- dizati 8
+- podignuti 58 podizati 11
+- podići 1
+- pognuti 1
+- - 0 uzdizati 3
+
+diktirati 4
+
+diktografisati 1
+
+dirati 1
+- dodirnuti 2 dodirivati 1
+
+disati 3
+- - 0 udisati 2
+
+diskreditovati 1
+
+diviti 1
+- zadiviti 1
+
+dobiti 0
+- pridobiti 1 pridobijati 1
+
+dobriti 0
+- odobriti 3 odobravati 2
+
+dobromislio 1
+
+dojiti 0
+- zadojiti 1
+
+dominirati 2
+
+dovoljiti 0
+- udovoljiti 1
+- zadovoljiti 3 zadovoljavati 3
+
+dozvoliti 3
+
+drati 1
+- izdrati 1 izdirati 3
+- oderati 1
+- dreknuti 2 drečati 2
+- razdrati 1
+
+dražiti 0
+- - 0 razdraživati 1
+
+dreti 0
+- prodreti 4 prodirati 7
+
+drhtati 3
+- - 0 podrhtavati 1
+- uzdrhtati 2
+- zadrhtati 2
+
+drmati 1
+
+družiti 1
+- pridružiti 1
+- - 0 udruživati 1
+
+držati 55
+- izdržati 5
+- održati 11 održavati 17
+- podržati 2 podržavati 7
+- - 0 pridržavati 2
+- sadržati 24
+- uzdržati 9
+- zadržati 15 zadržavati 5
+
+dubiti 0
+- zadubiti 1
+
+dugovati 6
+
+duvati 0
+- oduvati 1
+
+dužiti 0
+- izdužiti 1
+- produžiti 13 produžavati 1
+- - 0 produživati 1
+
+dvojiti 0
+- izdvojiti 1 izdvajati 1
+- odvojiti 3 odvajati 1
+- razdvojiti 5 razdvajati 4
+
+džilitati 1
+
+eksploatisati 2
+
+eksplodirati 4
+
+eksproprisati 1
+
+emitovati 1
+
+faliti 1
+
+falsifikovati 11
+
+formirati 1
+
+formulisati 4
+
+gaditi 2
+
+gajiti 2
+- odgajati 1
+
+gakati 3
+
+gasiti 4
+- gasnuti 1
+- ugasiti 5
+- zagasiti 1
+
+gaziti 6
+- pregaziti 1
+- zgaziti 1
+
+gegati 0
+- odgegati 1
+
+gestikulirati 1
+
+geti 0
+- sagnuti 4 saginjati 3
+
+ginuti 1
+- poginuti 3
+- ugibati 1
+
+gladiti 0
+- izgladiti 1
+
+gladovati 2
+
+glasiti 11
+- oglasiti 3
+- razglasiti 1
+- saglasiti 2
+
+glavinjati 1
+
+glaviti 0
+- uglaviti 2
+
+gledati 56
+- izgledati 52
+- nadgledati 3
+- ogledati 1
+- pogledati 43
+- pregledati 1
+- razgledati 2
+- ugledati 1
+- zagledati 13
+
+glodati 0
+- oglodati 1
+
+glupiti 0
+- zaglupiti 1
+
+glušiti 0
+- zaglušiti 2
+
+gnati 0
+- nagnati 1
+- odagnati 1
+
+gneviti 0
+- razgneviti 1
+
+gnezditi 0
+- ugnezditi 1
+
+gnječiti 0
+- zgnječiti 2
+
+gnjuriti 0
+- zagnjuriti 1
+
+gnuti 0
+- nagnuti 7
+
+gnušati 1
+
+goditi 0
+- - 0 gađati 1
+- dogoditi 9 događati 7
+- - 0 nagađati 4
+- pogoditi 11 pogađati 2
+
+gojiti 0
+- ugojiti 2
+
+golicati 3
+
+goniti 1
+- - 0 ganjati 2
+- - 0 proganjati 3
+- - 0 progoniti 2
+
+goreti 1
+
+gospodariti 1
+
+govoriti 93
+- dogovoriti 2
+- izgovoriti 10 izgovarati 6
+- - 0 nagovarati 1
+- odgovoriti 12 odgovarati 8
+- patkogovoriti 1
+- - 0 porazgovarati 3
+- progovoriti 20
+- razgovarati 28
+
+grabiti 4
+- dograbiti 2
+- zgrabiti 1
+
+graditi 1
+- izgraditi 1 izgrađivati 1
+- sagraditi 3
+
+graničiti 0
+- ograničiti 1 ograničavati 1
+
+grepsti 0
+- - 0 grebati 3
+- zgrepsti 1
+
+gresti 1
+
+grešiti 4
+- pogrešiti 2
+- zgrešiti 1
+
+gristi 1
+- odgristi 1
+- progristi 1
+- zagristi 2
+
+grliti 2
+- obgrliti 2
+- zagrliti 7
+
+grmeti 0
+- zagrmeti 2
+
+grnuti 0
+- zgrnuti 1
+
+groziti 0
+- ugroziti 1
+
+grunuti 3
+
+grupisati 0
+- pregrupisati 1
+
+grčiti 1
+- zgrčiti 3
+
+gubiti 13
+- izgubiti 25
+- pogubiti 3
+
+gunđati 0
+- zagunđati 1
+
+gurati 9
+- gurnuti 24
+- odgurnuti 3
+- ugurati 1
+- zgurati 1
+
+gušiti 0
+- ugušiti 3
+
+gutati 5
+- progutati 11
+
+gužvati 1
+
+hapsiti 2
+- uhapsiti 12
+
+hitati 4
+- hitnuti 1
+- pohitati 1
+
+hladiti 0
+- ohladiti 2
+
+hladneti 0
+- zahladneti 1
+
+hodati 12
+- hoditi 1
+- nahoditi 1
+
+hoditi 0
+- prethoditi 3
+- uhoditi 1
+
+hrabriti 1
+
+hraniti 3
+
+hteti 0
+- prohteti 5
+- - 0 zahtevati 15
+
+hujati 0
+- prohujati 1
+
+hvaliti 1
+- pohvaliti 1
+
+hvatiti 0
+- - 0 hvatati 3
+- dohvatiti 13
+- obuhvatiti 2 obuhvatati 14
+- shvatiti 56 shvatati 20
+- uhvatiti 38
+- zahvatiti 11 zahvatati 4
+
+ignorisati 2
+
+igrati 13
+- odigrati 7 odigravati 1
+
+imati 337
+- nadimati 1
+- otimati 3
+
+imenovati 2
+
+imitirati 1
+
+impresionirati 2
+
+improvizovati 1
+
+inficirati 1
+
+interesovati 5
+- zainteresovati 3
+
+ispoljavati 1
+
+ivičiti 1
+
+izraziti 9
+- izražavati 9
+
+izvesiti 1
+
+izviniti 6
+- izvinjavati 2
+
+ići 54
+- doći 92 dolaziti 37
+- izići 20 izlaziti 17
+- mimoići 7
+- naići 11 nailaziti 1
+- - 0 obilaziti 1
+- otići 31 odlaziti 6
+- - 0 podilaziti 1
+- poći 35 polaziti 3
+- - 0 prelaziti 11
+- prevazići 2 prevazilaziti 1
+- preći 17
+- prići 13
+- proizići 1 proizlaziti 5
+- proći 59 prolaziti 26
+- razići 1
+- sići 4 silaziti 2
+- ući 34 ulaziti 6
+- zaći 1
+
+jasniti 0
+- objasniti 8 objašnjavati 2
+
+jaukati 1
+
+javiti 1
+- javljati 3
+- izjaviti 1
+- objaviti 9 objavljivati 2
+- pojaviti 35 pojavljivati 8
+- prijaviti 2 prijavljivati 1
+
+jačati 3
+- nadjačati 4 nadjačavati 3
+- ojačati 1
+- pojačati 2 pojačavati 1
+
+jecati 0
+- zajecati 1
+
+jediniti 0
+- ujediniti 1
+
+jednačiti 0
+- izjednačiti 1
+
+jesti 13
+- pojesti 3
+
+ječati 0
+- odjeknuti 4 odjekivati 3
+
+juriti 1
+
+kajati 0
+- pokajati 3
+
+kaljati 1
+- ukaljati 2
+
+kamuflirati 1
+
+kamčiti 0
+- iskamčiti 1
+
+kanuti 0
+- okanuti 1
+
+kapitulirati 2
+
+karakterisati 1
+
+karminisati 0
+- nakarminisati 1
+
+kazati 80
+- kazivati 3
+- dokazati 8 dokazivati 2
+- iskazati 3 iskazivati 2
+- pokazati 12 pokazivati 17
+- potkazati 2
+- prikazati 3 prikazivati 3
+- prokazati 4 prokazivati 1
+- ukazati 6 ukazivati 1
+- zakazati 2
+
+kazniti 2
+- kažnjavati 4
+
+kačiti 0
+- okačiti 1
+- prikačiti 1
+
+kašljati 0
+- kašljucnuti 1
+- zakašljati 1
+
+kevtati 0
+- zakevtati 1
+
+keziti 1
+
+kinuti 0
+- kidati 0
+- iskidati 1
+- otkinuti 2 otkidati 1
+- prekinuti 9 prekidati 3
+- raskidati 1
+- raskinuti 1
+- skinuti 9 skidati 6
+- ukinuti 8 ukidati 2
+
+kijati 1
+
+kinjiti 1
+
+kisnuti 0
+- - 0 prokišnjavati 1
+
+kipeti 0
+- prekipeti 1
+
+klanjati 1
+
+klati 0
+- zaklati 1
+
+klatiti 1
+
+kleti 0
+- zakleti 2
+
+klečati 6
+
+klicati 2
+
+klimati 0
+- klimnuti 3
+- rasklimati 1
+
+klinuti 0
+- - 0 preklinjati 2
+
+kliziti 2
+- kliznuti 1
+- skliznuti 1
+
+kljukati 1
+
+ključati 1
+- otključavati 1
+
+ključiti 0
+- isključiti 13 isključivati 2
+- priključiti 1
+- uključiti 1 uključivati 2
+- zaključiti 12
+
+kloniti 0
+- nakloniti 1
+- otkloniti 2
+- skloniti 1
+- ukloniti 4 uklanjati 2
+- - 0 zaklinjati 1
+
+klopiti 0
+- - 0 poklapati 1
+- - 0 rasklapati 1
+- sklopiti 4
+- uklopiti 1 uklapati 1
+
+kolebati 1
+
+koliti 0
+- skoliti 2
+
+komandovati 1
+
+kombinovati 1
+
+komentarisati 0
+- prokomentarisati 1
+
+komešati 1
+- uskomešati 1
+
+komparirati 1
+
+komplikovati 1
+
+komponovati 3
+
+kompromitovati 1
+
+koncentrisati 2
+
+konstruisati 2
+
+kontrolisati 19
+
+končati 0
+- okončati 2
+
+koordinirati 1
+
+kopati 1
+- iskopati 2
+- zakopati 1
+
+koračati 5
+- koraknuti 1
+- iskoračiti 1
+- zakoračati 1
+- zakoračiti 2 zakoračivati 1
+
+koreniti 0
+- iskoreniti 2
+
+korigovati 3
+
+koristiti 13
+- iskoristiti 1
+
+koriti 1
+- pokoriti 1 pokoravati 2
+
+kositi 1
+
+kostrešiti 2
+
+kotrljati 2
+- zakotrljati 1
+
+kovati 2
+- prikovati 1
+
+kovitlati 1
+
+kočiti 3
+- ukočiti 3
+
+koštati 2
+- - 0 okoštavati 1
+
+krajčiti 0
+- dokrajčiti 1
+
+krasiti 0
+- ukrasiti 1
+
+krasti 3
+
+kratiti 0
+- - 0 skraćivati 2
+- uskratiti 1 uskraćivati 2
+
+krenuti 6
+- kretati 8
+- okrenuti 58 okretati 6
+- pokrenuti 8 pokretati 6
+- preokrenuti 3
+- skrenuti 9 skretati 2
+
+kresati 1
+- kresnuti 2
+- potkresati 1
+
+krijumčariti 0
+- prokrijumčariti 1
+
+kriliti 0
+- - 0 natkriljavati 1
+
+krinkati 0
+- raskrinkati 2 raskrinkavati 1
+
+kriti 7
+- otkriti 13 otkrivati 2
+- pokriti 10 pokrivati 7
+- prekriti 2
+- sakriti 12 sakrivati 1
+- skriti 1 skrivati 3
+
+kritikovati 1
+
+kriviti 1
+- iskriviti 2
+- okriviti 2
+
+kričati 2
+- kriknuti 6
+
+krpiti 2
+- pokrpiti 1
+- zakrpiti 1
+
+krsnuti 0
+- iskrsnuti 2
+- uskrsnuti 1
+
+krstiti 0
+- prekrstiti 1
+
+kruniti 2
+
+krupnjati 0
+- raskrupnjati 3
+
+krutiti 1
+- ukrutiti 2
+
+kružiti 3
+- okružiti 2 okruživati 1 okružavati 2
+
+kršiti 5
+- prekršiti 1
+
+kucati 2
+- kucnuti 2
+- - 0 otkucavati 1
+- - 0 zakucavati 1
+
+kukumavčiti 1
+
+kukuriknuti 1
+
+kuljati 2
+
+kupati 0
+- okupati 1
+
+kupiti 14
+- kupovati 2
+- nakupiti 1
+- - 0 okupljati 2
+- pokupiti 1
+- prikupiti 1
+- skupiti 6 skupljati 3
+- zaokupiti 1
+
+kusati 0
+- okusiti 1
+
+kuvati 1
+- skuvati 4
+- zakuvati 1
+
+kučiti 0
+- dokučiti 1
+- skučiti 1
+
+kušati 0
+- pokušati 17 pokušavati 19
+
+kvariti 2
+
+labaviti 0
+- olabaviti 2
+
+lagati 5
+
+lagoditi 0
+- prilagoditi 1
+
+laktati 1
+
+lakšati 0
+- olakšati 1
+
+lebdeti 2
+- zalebdeti 1
+
+legitimisati 1
+
+legnuti 2
+
+lepiti 1
+- izlepiti 1
+- zalepiti 1
+
+lepršati 1
+- zalepršati 1
+
+leteti 4
+- izleteti 3
+- naleteti 5 naletati 1
+- obleteti 1
+- odleteti 5
+- poleteti 2
+- preleteti 2
+- proleteti 1 proletati 1
+- saleteti 1
+- sleteti 1
+- uleteti 4 uletati 1
+- uzleteti 5 uzletati 1
+
+leći 5
+- ležati 35
+- nalegnuti 1
+- - 0 odležati 1
+- podlegnuti 3
+- razlegnuti 4
+
+lečiti 2
+- izlečiti 3
+
+lepšati 0
+- prolepšati 1
+
+likovati 0
+- odlikovati 3
+
+likvidirati 5
+
+liti 1
+- izliti 1 izlivati 1
+- obliti 2
+- podliti 1
+- - 0 prelivati 2
+- uliti 1 ulivati 5
+
+lizati 0
+- liznuti 1
+- izlizati 2
+- oblizati 1
+
+ličiti 8
+
+lišiti 1
+
+ljubiti 3
+- poljubiti 3
+- sljubiti 1
+
+ljuljati 1
+
+ljutiti 2
+
+ljuštiti 1
+
+lomiti 1
+- odlomiti 2
+- polomiti 1
+- prelomiti 2
+- slomiti 7 slamati 2
+
+ložiti 0
+- izložiti 2
+- obložiti 1
+- odložiti 6 odlagati 1
+- položiti 8 polagati 2
+- predložiti 1 predlagati 1
+- raspoložiti 1 raspolagati 1
+- složiti 3 slagati 8 naslagati 1
+- založiti 1 zalagati 1
+- - 0 nalagati 1
+
+luditi 1
+- - 0 zaludeti 1
+
+lumpovati 1
+
+lupiti 0
+- - 0 lupati 5
+- zalupati 1
+- zalupiti 2
+
+lutati 2
+- odlutati 4
+
+lučiti 1
+- odlučiti 1 odlučivati 1
+
+magliti 1
+- odmagliti 1
+- - 0 zamagljivati 1
+
+mahati 2
+- mahnuti 1
+- odmahnuti 1
+
+majmunisati 1
+
+maći 0
+- - 0 micati 6
+- izmaknuti 2
+- odmaknuti 4
+- pomaknuti 5 pomicati 2
+- razmaknuti 1
+- smaknuti 1
+- - 0 uzmicati 1
+- zamaknuti 1
+
+manjiti 0
+- smanjiti 8 smanjivati 3
+
+manuti 0
+- obmanjivati 1
+
+marširati 3
+- umarširati 1
+
+matirati 3
+
+mazati 1
+
+maći 0
+- primaknuti 1
+- - 0 primicati 1
+
+mašiti 3
+- - 0 nadmašivati 1
+- premašiti 2
+
+mekšati 0
+- omekšati 1 omekšavati 1
+
+meniti 0
+- primeniti 2 primenjivati 2
+- promeniti 19
+- razmeniti 2
+- - 0 menjati 21
+- izmeniti 34 izmenjivati 1
+- zameniti 4 zamenjivati 1
+
+meriti 2
+- izmeriti 1
+- odmeriti 2
+- pomeriti 5
+
+mesiti 1
+
+mestiti 0
+- namestiti 2 nameštati 3
+- smestiti 6 smeštati 3
+- premestiti 4
+
+metiti 0
+- primetiti 31 primećivati 14
+
+metnuti 0
+- nametnuti 2 nametati 4
+- podmetnuti 1
+- - 0 smetati 7
+
+međiti 0
+- omeđiti 2
+
+mešati 4
+- pomešati 2
+- promešati 1
+- umešati 2
+
+micati 0
+- izmicati 1
+
+mileti / militi 0
+- domileti 1
+- omileti 1
+
+milovati 0
+- pomilovati 1
+
+mirisati 3
+- pomirisati 1
+
+miriti 0
+- podmiriti 1
+- pomiriti 2
+- primiriti 1
+- smiriti 4
+- umiriti 2 umirivati 1
+
+mirovati 1
+
+misliti 104
+- izmisliti 15
+- pomisliti 44 pomišljati 1
+- predomisliti 6
+- - 0 premišljati 1
+- razmisliti 8 razmišljati 15
+- smisliti 4 smišljati 1
+- zamisliti 15 zamišljati 10
+
+mleti 1
+
+množiti 0
+- namnožiti 1
+- - 0 razmnožavati 1
+
+mogućiti 0
+- omogućiti 2 omogućavati 2
+- onemogućiti 1 onemogućavati 1
+
+mokriti 2
+
+moliti 7
+- promoliti 1
+- zamoliti 1
+
+morati 145
+- primorati 1 primoravati 3
+
+moriti 0
+- odmoriti 2 odmarati 1
+- zamoriti 1
+
+motati 3
+- odmotati 5
+- smotati 2
+
+motriti 0
+- razmotriti 1
+- - 0 posmatrati 53
+- - 0 smatrati 30
+
+moći 660
+- pomoći 4 pomagati 5
+
+močiti 0
+- umočiti 2 umakati 1
+
+mreti 0
+- umreti 17 umirati 6
+- zamreti 1
+
+mračiti 2
+- pomračiti 2
+
+mrgoditi 0
+- namrgoditi 1
+
+mrljati 0
+- umrljati 2
+
+mrmljati 3
+- promrmljati 8
+
+mrmoljiti 1
+
+mršati 0
+- smršati 2
+
+mrzeti 14
+- zamrzeti 1
+
+mudriti 0
+- nadmudriti 1
+
+mutiti 0
+- smutiti 1
+
+mućkati 1
+
+mučiti 6
+
+nadati 6
+- iznenaditi 4 iznenađivati 1
+
+naduti 3
+
+nadzirati 2
+
+nagovestiti 2
+- nagoveštavati 3
+
+najmiti 0
+- iznajmiti 2
+
+nameniti 2
+
+nameravati 3
+
+napredovati 3
+- uznapredovati 2
+
+naći 47
+- - 0 nalaziti 58
+- - 0 pronalaziti 3
+- pronaći 9
+- snaći 1
+
+nemati 81
+
+nemariti 0
+- zanemariti 2
+
+nemiriti 0
+- - 0 uznemiravati 6
+
+nesvestiti 0
+- onesvestiti 2
+
+neti 0
+- - 0 nositi 23
+- doneti 23 donositi 3
+- doprineti 1 doprinositi 3
+- izneti 8 iznositi 7
+- naneti 3
+- odneti 5 odnositi 9
+- podneti 3 podnositi 6
+- poneti 1
+- - 0 ponositi 3
+- - 0 ponašati 2
+- preneti 7 prenositi 4
+- - 0 prinositi 1
+- proneti 1 pronositi 2
+- razneti 5 raznositi 1
+- uneti 6 unositi 2
+- - 0 zanositi 1
+
+neutralisati 3
+
+neveriti 0
+- - 0 proneveravati 1
+
+niknuti 1
+- izniknuti 1
+- poniknuti 1
+
+nipodaštavati 1
+
+niziti 0
+- poniziti 3 ponižavati 1
+- sniziti 1
+
+nišaniti 1
+
+ništiti 0
+- poništiti 1
+- uništiti 25 uništavati 9
+
+njihati 1
+
+njuškati 1
+
+noviti 0
+- - 0 obnavljati 1
+- ponoviti 19 ponavljati 6
+
+nuditi 1
+- iznuditi 2
+- prinuditi 1
+
+obaviti 6
+- obavljati 3
+- obavijati 4
+
+obdariti 2
+
+obećati 1
+- obećavati 3
+
+obilovati 1
+
+obliti 0
+- zaobliti 1
+
+obličiti 0
+- - 0 izobličavati 1
+- preobličiti 1 preobličavati 1
+- uobličiti 2 uobličavati 2
+
+obožavati 5
+
+obratiti 3
+- obraćati 13
+
+obratiti 0
+- - 0 preobraćati 1
+- - 0 saobraćati 1
+
+obraziti 0
+- preobraziti 1
+
+obrazovati 4
+
+obrnuti 1
+- obrtati 1
+
+obući 4
+- oblačiti 4
+
+odupreti 2
+- odupirati 3
+
+oduševljavati 1
+
+oklevati 1
+
+opirati 2
+
+opkoliti 2
+- opkoljavati 1
+
+oporaviti 2
+
+organizovati 3
+
+oružati 0
+- - 0 obezoružavati 2
+
+oscilirati 1
+
+osmehnuti 4
+
+oriti 0
+- razoriti 4
+
+oteti 3
+
+overavati 1
+
+ozbiljiti 0
+- uozbiljiti 1
+
+oštriti 0
+- - 0 izoštravati 1
+
+očiti 0
+- suočiti 2
+
+paliti 4
+- ispaliti 2 ispaljivati 1
+- opaliti 2
+- potpaliti 3 potpaljivati 1
+- spaliti 4 spaljivati 3
+- zapaliti 6
+
+pametiti 0
+- raspametiti 1
+
+pamtiti 9
+- popamtiti 1
+- upamtiti 1
+- zapamtiti 9
+
+panjiti 0
+- zapanjiti 1 zapanjivati 1
+
+paralisati 2
+- paralizovati 1
+
+parati 1
+- zaparati 1
+
+pariti 0
+- ispariti 18 isparavati 1
+
+pasati 0
+- - 0 opasivati 1
+
+pasti 51
+- padati 19
+- dopasti 3 dopadati 1
+- ispasti 6 ispadati 3
+- napasti 4 napadati 4
+- opasti 1 opadati 2
+- popasti 1 popadati 2
+- potpasti 1
+- pripasti 1 pripadati 10
+- propasti 4 propadati 2
+- raspasti 2 raspadati 4
+- upasti 2
+- zapasti 2 zapadati 2
+
+patiti 6
+
+paziti 3
+- - 0 opažati 2
+- spaziti 10
+
+peti 3
+- - 0 penjati 1
+- popeti 5
+- zapeti 1
+
+petljati 1
+
+pevati 17
+- pevušiti 1
+- zapevati 4
+
+peći 3
+
+pipati 1
+- pipnuti 1
+- opipati 2 opipavati 1
+
+pisati 43
+- ispisati 6
+- napisati 22
+- opisati 6 opisivati 1
+- potpisati 3 potpisivati 1
+- prepisati 2 prepisivati 1
+- pripisati 1 pripisivati 1
+- - 0 propisivati 1
+- upisati 1 upisivati 2
+- zapisati 3 zapisivati 1
+
+piriti 0
+- - 0 raspirivati 1
+
+pisnuti 0
+- zapištati 1
+
+pitati 27
+- ispitati 7 ispitivati 9
+- raspitati 2
+- upitati 38
+- vaspitati 1
+- prevaspitati 1
+- zapitati 2
+
+piti 7
+- ispiti 3
+- - 0 opijati 1
+- otpiti 2
+- popiti 5
+- pripiti 3 pripijati 1
+- upiti 2
+
+plakati 5
+- zaplakati 1
+
+planirati 1
+- isplanirati 1
+
+planuti 2
+
+platiti 0
+- isplatiti 1 isplaćivati 3
+- - 0 naplaćivati 1
+
+plaviti 0
+- preplaviti 4
+
+plaziti 0
+- isplaziti 1
+
+plašiti 6
+- poplašiti 3
+- uplašiti 2
+-  
+plesti 0
+- - 0 preplitati 1
+- - 0 rasplitati 1
+- saplesti 1 saplitati 1
+- uplesti 1
+
+plinuti 0
+- - 0 rasplinjavati 1
+
+plivati 2
+- otplivati 1
+
+pljačkati 1
+- opljačkati 1
+
+pljusnuti 0
+- zapljusnuti 1
+
+pljuvati 0
+- pljunuti 1
+- - 0 ispljuvati 1
+- - 0 popljuvati 1
+-      
+ploviti 2
+- doploviti 1
+- proploviti 1
+- uploviti 1
+
+plutati 1
+
+pobediti 14
+- pobeđivati 3
+
+pomenuti 10
+- pominjati 8
+
+poraziti 1
+- poražavati 4
+
+porediti 0
+- uporediti 2
+
+posati 9
+
+posliti 0
+- zaposliti 2
+
+poslovati 1
+
+potrebiti 0
+- upotrebiti 14 upotrebljavati 25
+
+povediti 0
+- - 0	propovedati 3
+
+pozoriti 0
+- - 0 upozoravati 1
+
+praktikovati 1
+
+prati 2
+- isprati 1
+- oprati 4
+
+pratiti 24
+- ispratiti 1
+- otpratiti 2
+
+pravdati 2
+- opravdati 1 opravdavati 2
+
+praviti 14
+- ispraviti 6 ispravljati 1
+- napraviti 8
+- popraviti 15 popravljati 2
+- - 0 raspravljati 1
+- upraviti 5 upravljati 6
+- uspraviti 6
+
+prazniti 0
+- isprazniti 3
+
+precizirati 1
+
+premiti 0
+- otpremiti 1
+- spremiti 1 spremati 5
+
+prepastiti 0
+- zaprepastiti 3 zaprepašćivati 1
+
+preti 0
+- dopreti 2 dopirati 4
+- - 0 prepirati 4
+
+pretiti 2
+- zapretiti 1
+
+prezati 0
+- napregnuti 2 naprezati 1
+
+prečiti 0
+- - 0 preprečavati 1
+- sprečiti 8 sprečavati 2
+
+primiti 2
+- - 0 primati 5
+
+prisustvovati 1
+
+pričati 14
+- ispričati 5
+- raspričati 1
+
+probati 0
+- isprobati 1
+
+propagirati 1
+
+prostiti 0
+- oprostiti 6
+
+protestovati 1
+
+protiviti 0
+- usprotiviti 1
+
+protivrečiti 3
+
+prskati 1
+- prsnuti 1	
+
+pružiti 4
+- ispružiti 4 ispružati 1
+- - 0 pružati 4
+
+pržiti 1
+
+psovati 4
+
+pucati 4
+
+pujdati 1
+
+pulsirati 1
+
+pumpati 1
+
+puniti 2
+- - 0 dopunjavati 1
+- ispuniti 10 ispunjavati 11
+- napuniti 8
+- popuniti 1
+
+pustiti 15
+- dopustiti 9 dopuštati 10
+- ispustiti 6
+- napustiti 8 napuštati 5
+- opustiti 2
+- popustiti 2
+- prepustiti 2 prepuštati 1
+- propustiti 2 propuštati 1
+- - 0 puštati 5
+- raspustiti 1
+- spustiti 10 spuštati 4
+- zapustiti 1
+
+putiti 0
+- uputiti 9 upućivati 1
+
+pući 1
+- ispucati 1
+- popucati 1  
+
+pušiti 3
+- popušiti 2
+- zapušiti 4
+
+putovati 2
+
+puziti 2
+
+rabiti 0
+- izrabljivati 1
+
+raditi 94
+- izraditi 1
+- obraditi 1 obrađivati 3
+- preraditi 4 prerađivati 4
+- razraditi 1
+- - 0 sarađivati 1
+- uraditi 32
+- - 0 zarađivati 1
+
+rasti 5
+- dorasti 2
+- izrasti 2
+- narasti 1
+- obrasti 1
+- odrasti 3 odrastati 1
+- porasti 5
+- prerasti 1
+- zarasti 1
+
+ravnati 0
+- poravnati 1
+
+raziti 0
+- preneraziti 1
+- zaraziti 2
+
+razlikovati 10
+
+razumeti 0
+- - 0 podrazumevati 2
+
+računati 2
+- izračunati 1
+- preračunati 1
+
+recitovati  0
+- odrecitovati 1
+
+redigovati 2
+- izredigovati 1
+
+rediti 0
+- narediti 5
+- odrediti 9 određivati 1
+- porediti 1
+- preurediti 1
+- - 0 priređivati 1
+- prorediti 1
+- rasporediti 1
+- - 0 ređati 1
+- srediti 2
+
+registrovati 1
+
+regrutovati 1
+
+regulisati 3
+
+rekonstruisati 1
+
+reprodukovati 1
+
+reskirati 6
+
+rezati 0
+- odrezati 1
+- urezati 1
+
+rezervisati 1
+
+reći 339
+- izreći 4
+- odreći 3
+- poreknuti 1
+- poreći 2 poricati 4
+- zareći 1
+
+rešiti 10
+- odrešiti 2
+- - 0 rešavati 3
+
+ribati 1
+
+rigati 0
+- podrignuti 4
+
+ritati 1
+
+riti 0
+- - 0 podrivati 1
+
+rizikovati 4
+
+robiti 0
+- - 0 zarobljavati 1
+
+roditi 9
+- izroditi 1
+- preporoditi 1
+- - 0 rađati 1
+
+rokovati 0
+- prorokovati 1
+- prouzrokovati 4
+
+roniti 1
+- izroniti 2 izranjati 1
+- zaroniti 2
+
+rubiti 0
+- srubiti 1
+
+rukovati 1
+
+rumeneti / rumeniti 0
+- narumeniti 1
+- porumeneti 2
+
+rukovoditi 2
+
+ručiti 0
+- - 0 naručivati 1
+- odručiti 1
+- sručiti 1
+
+rupiti 1
+
+rušiti 1
+- narušiti 1
+- obrušiti 1 obrušavati 1
+- porušiti 1
+- srušiti 4
+
+ružiti 1
+
+samititi 0
+- presamititi 3
+
+savršiti 0
+- usavršiti 2
+
+sedovati 0
+- posedovati 15
+
+sejati 0
+- posejati 1
+
+sekirati 3
+
+seniti 0
+- zaseniti 1
+
+senčiti 0
+- zasenčiti 1
+
+sesti 29
+- odsedeti 1
+- - 0 sedati 2
+- - 0 sedeti 67
+
+setiti 37
+- osetiti 38 osećati 48
+- podsetiti 2 podsećati 8
+- posetiti 1
+- - 0 prisećati 1
+- - 0 sećati 72
+-   
+sevati 1
+- sevnuti 2
+
+segnuti 0
+- dosegnuti 1
+- - 0 sezati 1
+
+seći 5
+- odseći 4
+- poseći 2
+- preseći 3 presecati 2
+
+sidriti 0
+- usidriti 1
+
+sijati 2
+- sinuti 5
+- - 0 presijavati 1
+- zasijati 2
+- zasjati 1
+
+siliti 0
+- prisiliti 1 prisiljavati 1
+
+silovati 2
+
+simbolizovati 1
+
+sistematizovati 2
+
+siveti 0
+- posiveti 1
+
+sjajiti 2
+
+skandalizovati 1
+
+skandirati 2
+
+skladiti 0
+- uskladiti 1
+
+skljokati 2
+
+skočiti 4
+- iskočiti 2
+- odskočiti 2
+- podskočiti 2
+- poskočiti 1 poskakivati 2
+- preskočiti 2
+- - 0 skakati 2
+- uskočiti 2
+- - 0 zaskakati 1
+
+slabiti 3
+- oslabiti 2
+
+slati 2
+- - 0 odašiljati 1
+- poslati 9
+
+slaviti 1
+- proslaviti 1
+
+slediti 7
+- naslediti 2
+- uslediti 1
+
+sloboditi 0
+- osloboditi 9 oslobađati 1
+
+sloniti 0
+- nasloniti 2
+- osloniti 2
+- prisloniti 1
+
+slutiti 0
+- naslutiti 1 naslućivati 1
+
+slušati 22
+- poslušati 3
+- - 0 prisluškivati 3
+- saslušati 2 saslušavati 4
+
+služiti 7
+- poslužiti 3
+- - 0 zasluživati 1
+
+smejati 6
+- - 0 ismevati 2
+- nasmejati 1
+
+smerati 1
+
+smeriti 0
+- - 0 usmeravati 1
+
+smeti 17
+
+smešiti 0
+- nasmešiti 1
+
+smožditi 1
+
+smrdeti 3
+
+smucati 1
+
+snabdeti 0
+- snabdevati 2
+
+sniti 0
+- sanjati 8
+
+snovati 0
+- - 0 zasnivati 6
+
+soliti 1
+
+spasti 13
+- spasavati 1
+
+spati 0
+- - 0 spavati 22
+- prespavati 1
+- uspavati 2
+- zaspati 5
+
+specijalizovati 1
+
+speti 0
+- dospeti 2
+- uspeti 21 uspevati 6
+
+splasnuti 1
+
+spojiti 0
+- spajati 2
+
+sporiti 0
+- usporiti 2
+
+sposobiti 0
+- - 0 osposobljavati 1
+
+sredsrediti 0
+- usredsrediti 5
+
+sresti 16
+- - 0 sretati 1
+- susresti 1
+
+stagnirati 1
+
+stanovati 3
+
+stanoviti 0
+- ustanoviti 2
+
+starati 2
+- postarati 1
+
+stariti 0
+- zastareti 3
+
+stati 30
+- izostati 2
+- nastati 1
+- - 0 nastojati 2
+- - 0 nedostajati 3
+- nestati 35 nestajati 9
+- odustati 2
+- opstati 1
+- ostati 66 ostajati 11
+- postati 78 postajati 29
+- - 0 preostajati 1
+- prestati 34 prestajati 1
+- pristati 2
+- rastati 4
+- sastati 7 sastajati 4
+- - 0 stajati 73
+- ustati 17 ustajati 5
+- zaostati 1
+- zastati 20 zastajati 1
+
+staviti 21
+- dostaviti 1 dostavljati 1
+- ispostaviti 5
+- nastaviti 3 nastavljati 7
+- obustaviti 1
+- ostaviti 19 ostavljati 5
+- postaviti 10 postavljati 5
+- predstaviti 2 predstavljati 43
+- pretpostaviti 3 pretpostavljati 5
+- pristaviti 2
+- rastaviti 1
+- sastaviti 6 sastavljati 6
+- - 0 stavljati 4
+- suprotstaviti 1 suprotstavljati 3
+- uspostaviti 6 uspostavljati 5
+
+stenjati 1
+
+stideti 1
+- postideti 1
+
+stići 20
+- postignuti 9 postizati 3
+- - 0 stizati 3
+- dostignuti 1
+- sustignuti 1
+
+stojati 0
+- postojati 185
+- predstojati 1
+- sastojati 21
+
+straniti 0
+- rasprostraniti 1
+- zastraniti 2
+
+straviti 0
+- prestraviti 1
+
+stražariti 1
+
+strašiti 0
+- zastrašiti 1 zastrašivati 3
+
+streljati 15
+
+streti 0
+- prostreti 1 prostirati 1
+- zastreti 1
+
+strojiti 0
+- rastrojiti 1
+
+strugati 1
+
+strujati 1
+
+stupiti 3
+- odstupiti 1
+- postupiti 1 postupati 4
+- pristupiti 2 pristupati 1
+- ustupiti 4
+- zastupati 3
+
+stvariti 0
+- ostvariti 4
+
+sudariti 2
+
+suditi 2
+- osuditi 5 osuđivati 1
+- usuditi 2 usuđivati 6
+
+sumnjati 6
+- posumnjati 1
+
+sumnjičiti 0
+- osumnjičiti 1
+
+suti 0
+- nasuti 1
+- posuti 1
+- prosuti 2
+- - 0 sipati 2
+- - 0 rasipati 1
+
+svetiti 0
+- osvetiti 1
+- posvetiti 1 posvećivati 2
+
+svetleti 1
+- osvetliti 6
+
+svirati 2
+- zasvirati 1
+
+svideti 0
+- sviđati 1
+
+svojiti 0
+- osvojiti 6 osvajati 1
+
+svrbeti 2
+- zasvrbeti 1
+
+tabati 1
+
+takmičiti 1
+
+taknuti 1
+- dotaknuti 6 doticati 6
+- istaknuti 3 isticati 8
+- podstaknuti 4 podsticati 5
+- spotaknuti 1 spoticati 1
+
+taljati 0
+- - 0 otaljavati 1
+
+tanjiti 0
+- istanjiti 1
+
+tapkati 1
+
+tapšati 0
+- potapšati 1
+
+tegnuti 0
+- istegnuti 1
+- protegnuti 1 protezati 2
+- - 0 rastezati 2
+- stegnuti 13 stezati 6
+- - 0 zatezati 1
+
+terati 2
+- doterati 1
+- isterati 3 isterivati 1
+- naterati 12 naterivati 1
+- oterati 2
+- uterati 1 uterivati 2
+
+teretiti 1
+
+testerisati 1
+
+teturati 1
+- oteturati 1
+- uteturati 1
+
+teći 8
+- poteći 2 poticati 8
+- preteći 1
+- priteći 1 priticati 1
+- - 0 proisticati 1
+- steći 7 sticati 3
+- - 0 ticati 18
+- - 0 uticati 3
+- zateći 3 zaticati 1
+
+težiti 2
+
+tiktakati 2
+
+tisnuti 0
+- istisnuti 1
+- potisnuti 1 potiskivati 2
+- pritisnuti 12 pritiskati 1
+
+tišati 0
+- utišati 5
+
+tolerisati 3
+
+tonuti 9
+- potonuti 2
+- utonuti 1
+
+topiti 3
+- istopiti 1
+- - 0 potapati 1
+- pretopiti 3
+- utopiti 2
+
+točiti 4
+
+tovariti 0
+- istovariti 2
+
+točiti 0
+- natočiti 3
+
+trajati 14
+- potrajati 12
+
+tražiti 25
+- - 0 istraživati 1
+- potražiti 2
+- zatražiti 4
+
+trbuhosećati 2
+
+trebati 107
+- zatrebati 1
+
+trebiti 0
+- istrebiti 1
+
+treperiti 1
+
+tresti 0
+- istresti 2
+- otresti 2
+- protresti 3
+- stresti 2
+- tresnuti 5
+- zatresti 1
+
+treti 0
+- zatreti 1
+
+trgnuti 10
+- istrgnuti 3
+- otrgnuti 4
+- rastrgnuti 1
+- strgnuti 4
+- - 0 trzati 1
+
+trijumfovati 1
+
+trljati 0
+- protrljati 1
+
+trnuti 3
+
+trošiti 3
+- - 0 istrošavati 1
+- potrošiti 1
+- utrošiti 2
+
+trpati 0
+- pretrpati 1
+- zatrpati 1 zatrpavati 2
+
+trpeti 4
+- strpeti 1
+
+trucnuti 1
+- truckati 1
+
+truditi 9
+
+truliti 1
+
+trupnuti 1
+
+trčati 5
+- istrčati 1
+- optrčati 1
+- otrčati 1
+- potrčati 4
+- ustrčati 1
+
+tumarati 0
+- ustumarati 1
+
+tumačiti 1
+
+turiti 0
+- doturiti 2
+- isturiti 1
+- preturiti 2
+- proturiti 1
+- rasturiti 1 rasturati 5
+
+tutnjati 1
+
+tutnuti 3
+
+tuviti 1
+
+tući 13
+- potući 3
+- - 0 tucati 1
+
+tužiti 0
+- optužiti 4 optuživati 1
+- rastužiti 1
+
+tvoriti 0
+- otvoriti 30 otvarati 4
+- - 0 pretvarati 10
+- stvoriti 19 stvarati 12
+- - 0 zatvarati 5
+
+tvrditi 14
+- otvrdnuti 1
+- utvrditi 5
+
+udariti 14
+- - 0 udarati 7
+- - 0 zaudarati 3
+
+umeti 11
+- razumeti 49 razumevati 1
+
+umreti 0
+- izumreti 1
+
+upreti 0
+- podupreti 2
+
+urlati 4
+- - 0 urlikati 1
+- zaurlati 3
+
+ustaviti 0
+- zaustaviti 25 zaustavljati 5
+
+ustiti 0
+- izustiti 1
+
+uzeti 31
+- izuzeti 1
+- obuzeti 9
+- oduzeti 2 oduzimati 3
+- preduzeti 3
+- - 0 uzimati 4
+- zauzeti 4 zauzimati 6
+
+uziti 0
+- suziti 2 sužavati 3
+
+učestvovati 8
+
+učiti 12
+- naučiti 12
+- - 0 obučavati 1
+- - 0 podučavati 1
+- - 0 proučavati 3
+
+užasavati 2
+
+uživati 4
+
+vaditi 3
+- izvaditi 19
+
+valiti 0
+- navaliti 2
+- podvaliti 2
+- zavaliti 2
+- - 0 valjati 2
+
+vapiti 0
+- zavapiti 1
+
+varirati 4
+
+variti 0
+- prevariti 3
+- - 0 varati 1
+- - 0 zavaravati 2
+
+važiti 5
+
+vejati 0
+- razvejati 1
+
+vekovečiti 0
+- ovekovečiti 3
+
+velim 1
+
+veličati 0
+- uveličati 1 uveličavati 1
+
+venčati 0
+- venčavati 1
+
+veriti 0
+- - 0 izneveravati 1
+- poveriti 3
+- proveriti 7 proveravati 5
+- uveriti 4 uveravati 1
+- zaveriti 1
+
+verovati 55
+- poverovati 6
+
+vesti 0
+- povesti 2
+- prevesti 4
+- - 0 prevoditi 2
+- - 0 prevoziti 1
+- privesti 1
+- proizvesti 12 proizvoditi 16
+- provesti 6 provoditi 5
+- sprovesti 2 sprovoditi 3
+- svesti 1 svoditi 1
+- uvesti 4
+- zavesti 3
+
+vezati 7
+- povezati 4
+- privezati 7
+- razvezati 1
+- - 0 vezivati 3
+- zavezati 1
+
+većati 0
+- povećati 2 povećavati 1
+- - 0 uvećavati 1
+
+vešati 2
+
+vežbati 0
+- izvežbati 1
+
+videti 226
+- - 0 izviđati 1
+- uvideti 1 uviđati 2
+- predvideti 8 predviđati 2
+- - 0 previđati 1
+- - 0 viđati 8
+- - 0 zavideti 1
+
+vijugati 2
+
+vikati 11
+- - 0 izvikivati 3
+- naviknuti 7
+- povikati 6
+- uzviknuti 10 uzvikivati 2
+- viknuti 1
+
+viriti 2
+- izvirati 1
+- proviriti 1
+
+visiti 6
+- - 0 nadvišavati 1
+- - 0 nadvišivati 1
+- - 0 zavisiti 9
+
+viti 0
+- izviti 3 izvijati 2
+- odviti 1 odvijati 4
+- poviti 1 povijati 2
+- previti 1
+- razviti 1 razvijati 3
+- - 0 savijati 3
+- uviti 4 uvijati 4
+- zaviti 2 zavijati 2
+
+vitlati 0
+- zavitlati 2
+
+vladati 13
+- - 0 nadvladavati 1
+- ovladati 2
+- - 0 preovladavati 2
+- savladati 1 savlađivati 1
+
+vlastiti 0
+- ovlastiti 1
+- povlastiti 1
+
+voditi 39
+- dovesti 18 dovoditi 4
+- izvesti 8 izvoditi 6
+- navesti 6 navoditi 6
+- odvesti 6
+
+vojevati 0
+- izvojevati 1
+
+voleti 39
+- privoleti 1
+- zavoleti 1
+
+voziti 2
+
+vratiti 53
+- odvratiti 3 odvraćati 1
+- povratiti 7 povraćati 2
+- uzvratiti 1
+- - 0 vraćati 18
+
+vrcati 1
+
+vrdati 2
+
+vredeti 16
+- - 0 obezvređivati 1
+
+vrediti 0
+- povrediti 4 povređivati 1
+- - 0 vređati 2
+
+vreti 0
+- navreti 1
+
+vrgnuti 0
+- podvrgnuti 5 podvrgavati 1
+- svrgnuti 3
+
+vrištati 5
+
+vrnuti 0
+- odvrnuti 1
+- osvrnuti 8
+- - 0 uvrtati 1
+
+vrpoljiti 2
+
+vrstati 0
+- razvrstati 1
+- svrstati 1
+
+vrteti 3
+- - 0 izvrtati 2
+
+vrzmati 4
+
+vršiti 11
+- dovršiti 1
+- izvršiti 11 izvršavati 1
+- završiti 13 završavati 7
+
+vući 12
+- - 0 dovlačiti 2
+- izvući 15 izvlačiti 3
+- navući 2 navlačiti 2
+- povući 17 povlačiti 5
+- privući 9 privlačiti 1
+- svući 1
+- uvući 3 uvlačiti 1
+- zavući 1
+
+zajmiti 0
+- pozajmiti 1
+- uzajmiti 1
+
+zanimati 6
+
+zidati 1
+
+zimiti 0
+- prezimiti 1
+
+zlatiti 0
+- pozlatiti 1 pozlaćivati 1
+
+zliti 0
+- pozliti 1
+
+znati 288
+- doznati 5
+- poznati 10 poznavati 20
+- prepoznati 19
+- priznati 39 priznavati 11
+- raspoznati 2 raspoznavati 2
+- razaznati 1 razaznavati 1
+- saznati 22 saznavati 3
+- upoznati 4
+
+značiti 68
+- - 0 označavati 6
+-   
+znojiti 3
+
+zračiti 1
+
+zreti 0
+- prezreti 1 prezirati 3
+- prozreti 2
+
+zuriti 1
+
+zvati 48
+- dozvati 1
+- izazvati 1 izazivati 1
+- nazvati 5 nazivati 13
+- odazvati 1
+- pozvati 5 pozivati 1
+-  - 0 prezivati 1
+- prizivati 1
+
+zveknuti 1
+
+zviždati 1
+
+zvoniti 2
+- - 0 odzvanjati 1
+
+zvučati 2
+- zazvučati 1
+
+ćelaviti 0
+- oćelaviti 1
+
+ćutati 8
+- prećutati 2
+- ućutati 4
+- ućutkati 4
+
+čarati 0
+- očarati 1
+
+čašiti 0
+- iščašiti 1
+
+čekati 19
+- dočekati 1
+- - 0 očekivati 12
+- sačekati 1
+
+čeliti 0
+- sučeliti 2
+
+čepati 0
+- dočepati 3
+
+čeprkati 0
+- iščeprkati 1
+
+čerečiti 0
+- raščerečiti 1
+
+četi 0
+- početi 86 počinjati 13
+- začeti 2 začinjati 1
+
+češati 0
+- očešati 1
+- počešati 4
+
+čileti 1
+- iščileti 1
+
+činiti 107
+- načiniti 2
+- počiniti 12
+- potčiniti 2
+- pričiniti 2
+- - 0 sačinjavati 12
+- učiniti 59
+
+čistiti 2
+- očistiti 4
+- raščistiti 1
+
+čitati 24
+- iščitati 1
+- očitati 1
+- - 0 - 0 prepročitavati 1
+- pročitati 20
+
+čiti 0
+- - 0 počivati 4
+
+čičkati 0
+- načičkati 1
+
+članiti 0
+- učlaniti 1
+
+čuditi 5
+- začuditi 2
+
+čuljiti 0
+- načuljiti 1
+
+čupati 2
+- iščupati 2
+- raščupati 2
+
+čuti 86
+- prečuti 1
+- začuti 15
+
+čuvati 9
+- očuvati 5
+- sačuvati 14
+
+čučnuti 1
+- čučati 2
+
+čvrsnuti 0
+- očvrsnuti 1
+
+čvrstiti 0
+- pričvrstiti 2
+
+šapnuti 1
+- odšaputati 1
+- prošaputati 2
+- zašaputati 1
+
+šetati 1
+
+šibati 1
+
+širiti 13
+- proširiti 5
+- raširiti 4
+
+šiti 1
+
+škljocnuti 3
+
+škoditi 1
+
+šminkati 1
+- našminkati 1
+
+šmrktati 0
+- išmrknuti 1
+
+špartati 0
+- prošpartati 1
+
+špijunirati 3
+
+šrafiti 0
+- odšrafiti 1
+-  
+štampati 1
+- preštampati 1
+
+štedeti 1
+- poštedeti 1
+- uštedeti 1
+
+štektati 1
+- zaštektati 1
+
+štititi 2
+- zaštititi 2
+
+šutnuti 2
+
+štovati 0
+- poštovati 1
+
+žagoriti 1
+
+žariti 0
+- užariti 1
+
+želeti 33
+- poželeti 8
+- zaželeti 2
+
+ženiti 2
+- oženiti 2
+
+žeti 0
+- sažeti 2
+
+žeći 0
+- sažeći 1 sažizati 1
+
+živeti 46
+- nadživeti 1
+- odživeti 1
+- oživeti 5 oživljavati 1
+- preživeti 4 preživljavati 1
+- proživeti 2
+
+žmuriti 1
+- zažmuriti 1
+
+žonglirati 1
+
+žrtvovati 5
+
+žudeti 1
+
+žuriti 2
+- požuriti 1
+
+žuteti 0
+- požuteti 1
+
+žvakati 0
+- požvakati 1
+- sažvakati 1
+
+žvrljati 0
+- nažvrljati 2
