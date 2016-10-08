@@ -31,8 +31,13 @@ for line in readin:
 			bfreq[basic] = elements[1]			# assgn the frequency of the verb
 			deriv[basic] = []				# initialise a new list for all the derivations of basic
 		#	print basic								#for checking
-		elif len(elements) > 0:
-			deriv[basic].append(elements)			# store all the elements in the derivation list, both verbs and their frequencies are appended in the same way 
+		elif len(elements) > 0:					# if the first element is length 1 ("-" in the input format)
+"""
+ store all the elements in a list of lists (one for each row under a base verb in the input file), both verbs and their frequencies are appended in the same way
+"""
+			deriv[basic].append(elements)			 
+
+
 
 
 """
